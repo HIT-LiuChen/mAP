@@ -35,7 +35,9 @@ Step by step:
          ```
          python main_scale.py
          ```
+     
      b) if the prediction results has been scaled, run the code:
+     
          ```
          python main_scale.py --gt-h 'gtH' --gt-w 'gtW' --pred-h 'predH' --pred-w 'predW'
          ```
