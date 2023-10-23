@@ -31,10 +31,11 @@ Step by step:
   2. Copy the ground-truth files into the folder **input/ground-truth/**
   3. [Create the detection-results files](#create-the-detection-results-files)
   4. Copy the detection-results files into the folder **input/detection-results/**
-  5. a）Run the code directly:
+  5. a) Run the code directly:
          ```
          python main_scale.py
          ```
+     
      b) if the prediction results has been scaled, run the code:
          ```
          python main_scale.py --gt-h 'gtH' --gt-w 'gtW' --pred-h 'predH' --pred-w 'predW'
